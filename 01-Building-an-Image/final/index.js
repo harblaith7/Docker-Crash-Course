@@ -6,7 +6,6 @@ const app = express()
 
 app.get('/', async (req, res) => {
     let image = await axios('https://source.unsplash.com/random');
-    console.log(image)
     res.send(`<img src="${image.request.res.responseUrl}" />`)
 })
 
