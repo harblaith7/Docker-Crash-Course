@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 50rem;
+  height: 35rem
 }
 
 .App-logo {
@@ -35,4 +42,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+
 }
