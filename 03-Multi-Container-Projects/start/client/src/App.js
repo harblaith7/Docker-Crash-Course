@@ -20,6 +20,7 @@ function App() {
   
   return (
     <div className="App">
+      <h1>Best NBA Players of All Time</h1>
       {
         players.map(player => {
           return (
